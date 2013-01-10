@@ -33,14 +33,14 @@ h1{
 	font-family: 'Risque', cursive;
 }
 a:link{
-	color:#66CCFF;
+	color:#336680;
 	text-decoration: none;
 }
 a:visited{
 	color:#336680;
 }
 a:hover{
-	color:#FF9900;
+	color:#66CCFF;
 }
 th, td{
 	padding: 5px 0;
@@ -69,11 +69,11 @@ nav li{
 	padding-right:10%;
 }
 header a:link,footer a:link{
-	color:#fff;
+	color:#336680;
 	text-decoration: none;
 }
 header a:visited,footer a:visited{
-	color:#FF9900;
+	color:#66CCFF;
 }
 header a:hover,footer a:hover{
 	color:#66CCFF;

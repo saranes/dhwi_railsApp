@@ -15,9 +15,9 @@
 		<h1>Sarah's DHWI Application</h1>
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/topics/new">Create Topic</a></li>
-				<li><a href="/about.html">About</a></li>
+				<li><%= link_to 'About', pages_about_path %></li>
+				<li><%= link_to 'See Topics', topics_path %></li>
+				<li><%= link_to 'Add a Topic', new_topic_path %></li>
 			</ul>
 		</nav>
 	</header>
@@ -26,7 +26,7 @@
 <% end %>
 <%= yield %>
 	<footer>
-		<span>Created as class exercise by Sarah Espinosa at the Digital Humanities Winter Institute 2013, with help of <a href="http://www.github.com">GitHub</a>, <a href="http://www.heroku.com">Heroku</a>, <a href="http://www.pixlr.com/editor">Pixlr Editor</a> and guided by instructors Jeremy Boggs and Wayne Graham</span>
+		<span>Sarah Espinosa</span>
 	</footer>
 </body>
 </html>
