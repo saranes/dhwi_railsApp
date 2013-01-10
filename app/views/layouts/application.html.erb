@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<!--
+	This is the document master for your site. Any style changes to this page will adapt to every page within your site.
+-->
 <head>
   <title>Dhwi</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
@@ -7,6 +10,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+		<h1>Sarah's DHWI Application</h1>
+	</header>
 <% flash.each do |name, msg| %>
 	<div><%= msg %></div>
 <% end %>
