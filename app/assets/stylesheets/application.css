@@ -11,8 +11,12 @@
  *= require_self
  *= require_tree .
  */
+
+/* global */
+
 html{
 	background-color: #66CCFF;
+	border-top: 10px solid #336680;
 }
 
 body {
@@ -21,12 +25,37 @@ body {
 	background-color: #FFFFFF;
 	padding: 5%;
 	border: 1px solid #336680;
+	color:#336680;
 }
+h1{
+	font-family: 'Risque', cursive;
+}
+a:link{
+	color:#66CCFF;
+	text-decoration: none;
+}
+a:visited{
+	color:#336680;
+}
+a:hover{
+	color:#FF9900;
+}
+th, td{
+	padding: 5px 0;
+	color: #336680;
+}
+
+/* header */
+
 header{
-	border-bottom: 1px solid #336680;
-	background-color: #333;
+	
+	background-color: #336680;
 	color: #fff;
 	padding: 2%;
+}
+header h1{
+	font-size: 36px;
+	border-bottom: 1px solid #999;
 }
 nav ul{
 	list-style: none;
@@ -41,8 +70,37 @@ header a:link{
 	text-decoration: none;
 }
 header a:visited{
-	color:#fff;
-};
+	color:#FF9900;
+}
 header a:hover{
-	color:#999;
-};
+	color:#66CCFF;
+}
+
+/* table */
+
+table{
+	width: 100%;
+}
+
+thead th{
+	border-bottom: 2px solid #ccc;
+	text-align:left;
+}
+
+tbody tr{
+	background-color: #FFF0D8;
+}
+
+tbody tr:nth-child(even){
+	background-color: #FFFFFF;
+}
+table a:link{
+	color:#660066;
+	text-decoration: none;
+}
+table a:visited{
+	color:#336680;
+}
+table a:hover{
+	color:#FF9900;
+}
