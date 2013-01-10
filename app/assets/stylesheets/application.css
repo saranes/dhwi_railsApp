@@ -49,7 +49,7 @@ th, td{
 
 /* header */
 
-header{
+header,footer{
 	
 	background-color: #336680;
 	color: #fff;
@@ -68,14 +68,14 @@ nav li{
 	display:inline;
 	padding-right:10%;
 }
-header a:link{
+header a:link,footer a:link{
 	color:#fff;
 	text-decoration: none;
 }
-header a:visited{
+header a:visited,footer a:visited{
 	color:#FF9900;
 }
-header a:hover{
+header a:hover,footer a:hover{
 	color:#66CCFF;
 }
 
@@ -101,8 +101,5 @@ tbody tr:nth-child(even){
 /*footer*/
 
 footer{
-	background-color: #336680;
-	color: #fff;
-	padding: 2%;
 	margin: 5% 0 0 0;
 }
