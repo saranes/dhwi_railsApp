@@ -47,7 +47,7 @@ th, td{
 	color: #336680;
 }
 img{
-	max-width:30px;
+	max-width:15px;
 }
 
 /* header */
@@ -67,7 +67,7 @@ nav ul,footer ul{
 	margin-left:0;
 	padding-left:0;
 }
-nav li, footer li{
+nav li{
 	display:inline;
 	padding-right:10%;
 }
