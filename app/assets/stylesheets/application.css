@@ -33,18 +33,21 @@ h1{
 	font-family: 'Risque', cursive;
 }
 a:link{
-	color:#336680;
+	color:#47008F;
 	text-decoration: none;
 }
 a:visited{
-	color:#336680;
+	color:#944D94;
 }
 a:hover{
-	color:#66CCFF;
+	color:#336680;
 }
 th, td{
 	padding: 5px 0;
 	color: #336680;
+}
+img{
+	max-width:30px;
 }
 
 /* header */
@@ -59,24 +62,25 @@ header h1{
 	font-size: 36px;
 	border-bottom: 1px solid #999;
 }
-nav ul{
+nav ul,footer ul{
 	list-style: none;
 	margin-left:0;
 	padding-left:0;
 }
-nav li{
+nav li, footer li{
 	display:inline;
 	padding-right:10%;
 }
 header a:link,footer a:link{
-	color:#336680;
+	color:#FFBD5C
+;
 	text-decoration: none;
 }
 header a:visited,footer a:visited{
-	color:#66CCFF;
+	color:#FFBD5C;
 }
 header a:hover,footer a:hover{
-	color:#66CCFF;
+	color:#FFFFFF;
 }
 
 /* table */
